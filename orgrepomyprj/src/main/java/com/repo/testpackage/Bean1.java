@@ -2,7 +2,15 @@ package com.repo.testpackage;
 
 public class Bean1 {
     String var1, var2, var3;
-    Integer int1;
+    Integer int1, int2, int3;
+
+    public Integer getInt3() {
+        return int3;
+    }
+
+    public void setInt3(Integer int3) {
+        this.int3 = int3;
+    }
 
     public String getVar3() {
         return var3;
@@ -44,6 +52,6 @@ public class Bean1 {
         this.int2 = int2;
     }
 
-    Integer int2;
+
 
 }

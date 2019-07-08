@@ -2,7 +2,17 @@ package firstTest;
 
 public class TestClass {
 
-    public String c, variable2;
+    public String c;
+    public String variable2;
+    public String d,e;
+
+    public String getD() {
+        return d;
+    }
+
+    public void setD(String d) {
+        this.d = d;
+    }
 
     public TestClass() {
     }
