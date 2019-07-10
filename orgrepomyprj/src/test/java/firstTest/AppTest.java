@@ -1,7 +1,9 @@
 package firstTest;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import com.repo.testpackage.Bean1;
 import org.junit.Test;
 
 /**
@@ -15,6 +17,12 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        assertTrue(true);
+    }
+
+    @Test
+    public void shouldAnswerWithFalse()
+    {
+        assertFalse(false);
     }
 }
