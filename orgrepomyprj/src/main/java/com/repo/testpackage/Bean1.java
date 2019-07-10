@@ -2,7 +2,7 @@ package com.repo.testpackage;
 
 public class Bean1 {
     String var1, var2, var3;
-    Integer int1, int2, int3, int4;
+    Integer int1, int2, int3, int4, int5;
 
     public Integer getInt3() {
         return int3;
