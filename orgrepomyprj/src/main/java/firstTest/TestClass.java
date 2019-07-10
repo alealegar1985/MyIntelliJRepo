@@ -4,7 +4,7 @@ public class TestClass {
 
     public String c;
     public String variable2;
-    public String d,e;
+    public String d,e,f;
 
     public String getD() {
         return d;
