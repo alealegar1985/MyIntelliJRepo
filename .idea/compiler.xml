@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="orgrepothird" />
         <module name="orgreposecond" />
         <module name="orgrepomyprj" />
       </profile>
@@ -13,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="orgrepomyprj" target="1.7" />
       <module name="orgreposecond" target="1.7" />
+      <module name="orgrepothird" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
